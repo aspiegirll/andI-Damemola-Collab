@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.nav {
+  background-color: #be3144 ;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: 10;
+  
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  
+  list-style: none;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.welcome-section {
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-section h1 {
+  color: white;
+}
+
+.welcome-section p {
+  color: #be3144;
+  text-align: center;
+}
+
+.projects-section {
+  background-color: #45567d;
+  height: fit-content;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.projects-section-header {
+  color: white;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.projects-section button {
+  background-color: #303841;
+  color: white;
+  padding: 10px;
+  border: none;
+  
+}
+
+.project-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-section button:hover {
+  background-color: #be3144;
+
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* .project {
+  
+  height: 200px;
+  object-fit: contain;
+} */
+
+.project img {
+  /* height: 200px; */
+  height: 300px;
+  display: block;
+  width: 400px;
+  object-fit: contain;
+  /* max-width: 400px; */
+  /* object-fit: fill; */
+}
+
+.project {
+  background-color: #303841;
+  margin-bottom: 10px;
+  /* padding-bottom: 10px; */
+}
+
+.project a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.code {
+  display: none;
+}
+
+footer {
+  background-color: #303841;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
